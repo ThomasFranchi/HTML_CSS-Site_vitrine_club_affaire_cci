@@ -1,0 +1,358 @@
+ body {
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    
+}
+
+/* HEADER */
+
+header {
+    margin:0 ;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+        ), url(./ressources/coffee-break-1177540_1920.jpg) center center / cover no-repeat   ;
+    text-align: center;
+    height: 100vh;
+}
+
+.title-container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.titre-bienvenue {
+    color: white;
+    font-size: 56px;
+    padding: 20px;
+    top: 50vh;
+  
+    vertical-align: middle;
+    position: block;
+   
+}
+
+.titre-Club {
+    color: white;
+    font-size: 56px;
+    background-color: #389DB4 ;
+    padding: 20px;
+    max-width: 800px;
+    vertical-align: middle;
+    top: 50vh;
+    
+    position: block;
+}
+
+/* NAV */
+nav {
+    height: 90px;
+    background-color: #389DB4;
+    display: flex;
+    justify-content:space-between
+   
+}
+
+.menu-items {
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 20px 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.first-menu-items {
+font-weight: 700;
+padding: 20px 20px 20px 50px;
+}
+
+.nav-2 {
+    position: sticky;
+    display: flex;
+    top: 0px;
+    background: #FFFFFF;
+    z-index: 1;
+    justify-content:space-between
+}
+
+.menu-items-nav2 {
+    color: #389DB4 ;
+}
+
+
+/* SECTION ESPRIT */
+.esprit {
+    background-color: #C7ECF6 ;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+
+.section-gauche {
+    margin: 150px;
+    flex-grow: 1;
+
+}
+.section-droite {
+    flex-grow: 1;
+}
+
+.section-droite img {
+    width: 100%;
+
+}
+
+
+.encart {
+    background-color: #389DB4 ;
+    padding: 20px;
+    padding-top: 50px;
+    padding-left: 80px;
+    color: #FFFFFF;
+    position: relative;
+    max-width: 500px;
+}
+
+.encart p {
+    text-justify:distribute;
+}
+
+
+
+.esprit .text-design-horizontal {
+    top: 0;
+    left: 16px
+}
+
+.esprit .text-design-vertical {
+    top: 90px;
+    left: -36px
+}
+
+
+.bord {
+    position: absolute;
+    background-color: white;      
+}
+
+
+
+/* SECTION MEMBRES */
+
+.encart-membres {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.encart-membres div {
+    max-width: 600px;
+    margin: 50px 0;
+    
+}
+
+.membres-top {
+    background-color: #389DB4;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.encart-membres {
+    max-width: 750px;
+    position: relative;
+    padding: 50px 0 50px 20px;
+    text-align: center;
+}
+
+.encart .bordgauche {
+    width: 180px;
+}
+
+.bloc-image {
+    background-color: #C7ECF6
+}
+
+.image-carre {
+    margin: 100px 150px;
+}
+
+/* SECTION ACTU */
+
+
+.actu {
+    background: center no-repeat url(./ressources/student-849826_1920.png) ;
+    background-color: #C7ECF6;
+    background-size: 100% auto;
+    padding: 500px 0 ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.encart-actu {
+    max-width: 500px;
+}
+
+/* SECTION CONTACTER */
+
+
+.contacter {
+}
+
+.encart-contacter {
+    display: flex;
+    background-color: #FFFFFF;
+    max-width: 40%;
+    margin: 80px auto;
+    text-align: center;
+    color: gray; 
+    position: relative;
+    justify-content: space-between;
+}
+
+.bord-contacter {
+    background-color: #389DB4;
+}
+
+.HG {
+    width: 16px;
+    height: 100px;
+    top: 0;
+    left: -16px    
+}
+
+.HD {
+    width: 116px;
+    height: 16px;
+    top: -16px;
+    left: -16px    
+}
+
+.BG {
+    width: 16px;
+    height: 100px;
+    bottom: 0;
+    right: -16px    
+}
+
+.BD {
+    width: 116px;
+    height: 16px;
+    bottom: -16px;
+    right: -16px
+}
+
+
+input  {
+    border: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    padding-left: -2px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+#inputnom , #inputprenom, #inputemail, #inputtel {
+    width: 42%;
+    margin: 20px 0 30px 5px;    
+}
+
+#inputsociete, #inputmessage {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.textcheckbox {
+font-size: 12px;
+margin: 36px 0 0 0;
+margin-bottom: 0px;
+}
+
+.checkbox {
+margin: 36px 0 0 0 ;
+}
+
+
+.boutton  {
+    color: #FFFFFF;
+    border: none;
+    font-size: 20px;
+    padding: 10px 40px;
+    background-color: #389DB4 ;
+    display: block;
+    margin: 40px auto;
+}
+
+footer {
+    color: white;
+    background-color: #389DB4 ;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.info-perso {
+    color: #389DB4;
+}
+
+li {
+    font-size: 20px;
+}
+
+
+footer p {
+    display: inline;
+    margin: 0 50px;
+}
+
+.text-design-horizontal, .text-design-vertical {
+    color: #ffffff;
+    font-size: 30px;
+    position: absolute;
+}
+
+.text-design-horizontal.bleu, .text-design-vertical.bleu {
+    color: #389DB4;
+}
+
+.text-design-vertical {
+    transform: rotate(-90deg);
+    left : -40px;
+    top: 140px;
+}
+
+.actu .text-design-horizontal {
+    top: 0;
+    left: 16px
+}
+
+.actu .text-design-vertical {
+    top: 60px;
+    left: -116px;
+}
+
+#membres .text-design-horizontal {
+    top: 0px;
+    left: 8px;
+    position: absolute;
+
+}
+
+#membres .text-design-vertical {
+    top: 46px;
+    left: -12px;
+    position: absolute;
+}
+
+.contacter .text-design-horizontal {
+    top: 0;
+    left: 16px
+}
+
+.contacter .text-design-vertical {
+    top: 114px;
+    left: -64px
+}
